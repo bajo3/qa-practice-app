@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Test App - Login & Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QA Test App</h1>
+    <div class="container">
+        <div id="registro">
+            <h2>Registro</h2>
+            <input type="email" id="regEmail" placeholder="Email">
+            <input type="password" id="regPass" placeholder="Contraseña">
+            <button onclick="registrar()">Registrar</button>
+            <p id="msgRegistro"></p>
+        </div>
+
+        <div id="login">
+            <h2>Login</h2>
+            <input type="email" id="logEmail" placeholder="Email">
+            <input type="password" id="logPass" placeholder="Contraseña">
+            <button onclick="login()">Iniciar Sesión</button>
+            <p id="msgLogin"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
